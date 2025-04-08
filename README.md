@@ -124,7 +124,3 @@ ai-job-platform/
 ## Contribution
 
 This project is currently in development. Contributions, suggestions, and feedback are welcome.
-
-## License
-
-[MIT License](LICENSE)

@@ -1,7 +1,6 @@
 # myjobhunter
 building this platform to automate and enhance my job-hunting tasks
 
-
 CONDA VENV INSTRUCTIONS:
     To activate this environment
         $ conda activate jobhuntingenv
@@ -27,7 +26,7 @@ This platform aims to reduce friction in the technical hiring process by automat
 
 ## Current Features
 
-### 1. Job Scraping Engine
+### Job Scraping Engine
 
 - **Multi-Platform Support**: Currently supports scraping from:
   - Ashby (ashbyhq.com)
@@ -43,12 +42,6 @@ This platform aims to reduce friction in the technical hiring process by automat
   - Detailed responsibilities and qualifications
   - Application instructions
 
-### 2. Technical Implementation
-
-- **Web Scraping**: Selenium-based scraping with polite crawling protocols
-- **AI Integration**: Claude API for intelligent content processing
-- **Modular Architecture**: Extensible design for adding new job sources and features
-
 ## Planned Features
 
 - Resume parsing and profile building
@@ -58,34 +51,20 @@ This platform aims to reduce friction in the technical hiring process by automat
 - Automated job search agent
 - Interview preparation workflows
 
-## Installation & Setup
-
-### Prerequisites
-
-- Python 3.10+
-- Chrome browser (for Selenium WebDriver)
-- Anthropic API key
-
 ### Environment Setup
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/ai-job-platform.git
-   cd ai-job-platform
-   ```
-
-2. Create and activate a virtual environment:
+1. Create and activate a virtual environment:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-
-4. Create a `.env` file with your API credentials:
+   
+3. Create a `.env` file with your API credentials:
    ```
    ANTHROPIC_API_KEY=your_anthropic_api_key
    ```
@@ -102,24 +81,11 @@ python job_scraper.py https://example.ashbyhq.com/jobs/12345 --output job_data.j
 python job_scraper.py https://example.lever.co/12345 --headless --output my_job.json
 ```
 
-## Project Structure
-
-```
-ai-job-platform/
-├── job_scraper.py        # Main script for job scraping
-├── requirements.txt      # Project dependencies
-├── .env                  # Environment variables (not tracked in git)
-├── data/                 # Directory for storing scraped job data
-└── docs/                 # Documentation files
-```
-
 ## Technology Stack
 
 - **Python**: Core programming language
 - **Selenium**: Web scraping and automation
 - **Claude AI**: Natural language processing and data extraction
-- **MongoDB**: Planned for persistent data storage
-- **FastAPI**: Planned for API development
 
 ## Contribution
 

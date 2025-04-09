@@ -1,7 +1,7 @@
 # myjobhunter
-building this platform to automate and enhance my job-hunting tasks
 
 CONDA VENV INSTRUCTIONS:
+
     To activate this environment
         $ conda activate jobhuntingenv
 
